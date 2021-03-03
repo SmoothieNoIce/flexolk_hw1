@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3719471525EF6E6C00A53E9D /* flexolk_hw1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3719471425EF6E6C00A53E9D /* flexolk_hw1App.swift */; };
+		3719471725EF6E6C00A53E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3719471625EF6E6C00A53E9D /* ContentView.swift */; };
+		3719471925EF6E7000A53E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3719471825EF6E7000A53E9D /* Assets.xcassets */; };
+		3719471C25EF6E7000A53E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3719471B25EF6E7000A53E9D /* Preview Assets.xcassets */; };
+		3719471E25EF6E7000A53E9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3719471D25EF6E7000A53E9D /* Persistence.swift */; };
+		3719472125EF6E7000A53E9D /* flexolk_hw1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3719471F25EF6E7000A53E9D /* flexolk_hw1.xcdatamodeld */; };
+		3719472C25EF6E7000A53E9D /* flexolk_hw1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3719472B25EF6E7000A53E9D /* flexolk_hw1Tests.swift */; };
+		3719473725EF6E7000A53E9D /* flexolk_hw1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3719473625EF6E7000A53E9D /* flexolk_hw1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3719472825EF6E7000A53E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3719470925EF6E6C00A53E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3719471025EF6E6C00A53E9D;
+			remoteInfo = flexolk_hw1;
+		};
+		3719473325EF6E7000A53E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3719470925EF6E6C00A53E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3719471025EF6E6C00A53E9D;
+			remoteInfo = flexolk_hw1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3719471125EF6E6C00A53E9D /* flexolk_hw1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexolk_hw1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3719471425EF6E6C00A53E9D /* flexolk_hw1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexolk_hw1App.swift; sourceTree = "<group>"; };
+		3719471625EF6E6C00A53E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3719471825EF6E7000A53E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3719471B25EF6E7000A53E9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3719471D25EF6E7000A53E9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3719472025EF6E7000A53E9D /* flexolk_hw1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flexolk_hw1.xcdatamodel; sourceTree = "<group>"; };
+		3719472225EF6E7000A53E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3719472725EF6E7000A53E9D /* flexolk_hw1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexolk_hw1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3719472B25EF6E7000A53E9D /* flexolk_hw1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexolk_hw1Tests.swift; sourceTree = "<group>"; };
+		3719472D25EF6E7000A53E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3719473225EF6E7000A53E9D /* flexolk_hw1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexolk_hw1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3719473625EF6E7000A53E9D /* flexolk_hw1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexolk_hw1UITests.swift; sourceTree = "<group>"; };
+		3719473825EF6E7000A53E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3719470E25EF6E6C00A53E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3719472425EF6E7000A53E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3719472F25EF6E7000A53E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3719470825EF6E6C00A53E9D = {
+			isa = PBXGroup;
+			children = (
+				3719471325EF6E6C00A53E9D /* flexolk_hw1 */,
+				3719472A25EF6E7000A53E9D /* flexolk_hw1Tests */,
+				3719473525EF6E7000A53E9D /* flexolk_hw1UITests */,
+				3719471225EF6E6C00A53E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3719471225EF6E6C00A53E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3719471125EF6E6C00A53E9D /* flexolk_hw1.app */,
+				3719472725EF6E7000A53E9D /* flexolk_hw1Tests.xctest */,
+				3719473225EF6E7000A53E9D /* flexolk_hw1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3719471325EF6E6C00A53E9D /* flexolk_hw1 */ = {
+			isa = PBXGroup;
+			children = (
+				3719471425EF6E6C00A53E9D /* flexolk_hw1App.swift */,
+				3719471625EF6E6C00A53E9D /* ContentView.swift */,
+				3719471825EF6E7000A53E9D /* Assets.xcassets */,
+				3719471D25EF6E7000A53E9D /* Persistence.swift */,
+				3719472225EF6E7000A53E9D /* Info.plist */,
+				3719471F25EF6E7000A53E9D /* flexolk_hw1.xcdatamodeld */,
+				3719471A25EF6E7000A53E9D /* Preview Content */,
+			);
+			path = flexolk_hw1;
+			sourceTree = "<group>";
+		};
+		3719471A25EF6E7000A53E9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3719471B25EF6E7000A53E9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3719472A25EF6E7000A53E9D /* flexolk_hw1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3719472B25EF6E7000A53E9D /* flexolk_hw1Tests.swift */,
+				3719472D25EF6E7000A53E9D /* Info.plist */,
+			);
+			path = flexolk_hw1Tests;
+			sourceTree = "<group>";
+		};
+		3719473525EF6E7000A53E9D /* flexolk_hw1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3719473625EF6E7000A53E9D /* flexolk_hw1UITests.swift */,
+				3719473825EF6E7000A53E9D /* Info.plist */,
+			);
+			path = flexolk_hw1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3719471025EF6E6C00A53E9D /* flexolk_hw1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3719473B25EF6E7000A53E9D /* Build configuration list for PBXNativeTarget "flexolk_hw1" */;
+			buildPhases = (
+				3719470D25EF6E6C00A53E9D /* Sources */,
+				3719470E25EF6E6C00A53E9D /* Frameworks */,
+				3719470F25EF6E6C00A53E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flexolk_hw1;
+			productName = flexolk_hw1;
+			productReference = 3719471125EF6E6C00A53E9D /* flexolk_hw1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3719472625EF6E7000A53E9D /* flexolk_hw1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3719473E25EF6E7000A53E9D /* Build configuration list for PBXNativeTarget "flexolk_hw1Tests" */;
+			buildPhases = (
+				3719472325EF6E7000A53E9D /* Sources */,
+				3719472425EF6E7000A53E9D /* Frameworks */,
+				3719472525EF6E7000A53E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3719472925EF6E7000A53E9D /* PBXTargetDependency */,
+			);
+			name = flexolk_hw1Tests;
+			productName = flexolk_hw1Tests;
+			productReference = 3719472725EF6E7000A53E9D /* flexolk_hw1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3719473125EF6E7000A53E9D /* flexolk_hw1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3719474125EF6E7000A53E9D /* Build configuration list for PBXNativeTarget "flexolk_hw1UITests" */;
+			buildPhases = (
+				3719472E25EF6E7000A53E9D /* Sources */,
+				3719472F25EF6E7000A53E9D /* Frameworks */,
+				3719473025EF6E7000A53E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3719473425EF6E7000A53E9D /* PBXTargetDependency */,
+			);
+			name = flexolk_hw1UITests;
+			productName = flexolk_hw1UITests;
+			productReference = 3719473225EF6E7000A53E9D /* flexolk_hw1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3719470925EF6E6C00A53E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3719471025EF6E6C00A53E9D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3719472625EF6E7000A53E9D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3719471025EF6E6C00A53E9D;
+					};
+					3719473125EF6E7000A53E9D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3719471025EF6E6C00A53E9D;
+					};
+				};
+			};
+			buildConfigurationList = 3719470C25EF6E6C00A53E9D /* Build configuration list for PBXProject "flexolk_hw1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3719470825EF6E6C00A53E9D;
+			productRefGroup = 3719471225EF6E6C00A53E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3719471025EF6E6C00A53E9D /* flexolk_hw1 */,
+				3719472625EF6E7000A53E9D /* flexolk_hw1Tests */,
+				3719473125EF6E7000A53E9D /* flexolk_hw1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3719470F25EF6E6C00A53E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3719471C25EF6E7000A53E9D /* Preview Assets.xcassets in Resources */,
+				3719471925EF6E7000A53E9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3719472525EF6E7000A53E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3719473025EF6E7000A53E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3719470D25EF6E6C00A53E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3719472125EF6E7000A53E9D /* flexolk_hw1.xcdatamodeld in Sources */,
+				3719471E25EF6E7000A53E9D /* Persistence.swift in Sources */,
+				3719471725EF6E6C00A53E9D /* ContentView.swift in Sources */,
+				3719471525EF6E6C00A53E9D /* flexolk_hw1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3719472325EF6E7000A53E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3719472C25EF6E7000A53E9D /* flexolk_hw1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3719472E25EF6E7000A53E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3719473725EF6E7000A53E9D /* flexolk_hw1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3719472925EF6E7000A53E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3719471025EF6E6C00A53E9D /* flexolk_hw1 */;
+			targetProxy = 3719472825EF6E7000A53E9D /* PBXContainerItemProxy */;
+		};
+		3719473425EF6E7000A53E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3719471025EF6E6C00A53E9D /* flexolk_hw1 */;
+			targetProxy = 3719473325EF6E7000A53E9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3719473925EF6E7000A53E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3719473A25EF6E7000A53E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3719473C25EF6E7000A53E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"flexolk_hw1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = flexolk_hw1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.flexolk.flexolk-hw1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3719473D25EF6E7000A53E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"flexolk_hw1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = flexolk_hw1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.flexolk.flexolk-hw1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3719473F25EF6E7000A53E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flexolk_hw1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.flexolk.flexolk-hw1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexolk_hw1.app/flexolk_hw1";
+			};
+			name = Debug;
+		};
+		3719474025EF6E7000A53E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flexolk_hw1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.flexolk.flexolk-hw1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexolk_hw1.app/flexolk_hw1";
+			};
+			name = Release;
+		};
+		3719474225EF6E7000A53E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flexolk_hw1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.flexolk.flexolk-hw1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flexolk_hw1;
+			};
+			name = Debug;
+		};
+		3719474325EF6E7000A53E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = flexolk_hw1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.flexolk.flexolk-hw1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flexolk_hw1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3719470C25EF6E6C00A53E9D /* Build configuration list for PBXProject "flexolk_hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3719473925EF6E7000A53E9D /* Debug */,
+				3719473A25EF6E7000A53E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3719473B25EF6E7000A53E9D /* Build configuration list for PBXNativeTarget "flexolk_hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3719473C25EF6E7000A53E9D /* Debug */,
+				3719473D25EF6E7000A53E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3719473E25EF6E7000A53E9D /* Build configuration list for PBXNativeTarget "flexolk_hw1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3719473F25EF6E7000A53E9D /* Debug */,
+				3719474025EF6E7000A53E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3719474125EF6E7000A53E9D /* Build configuration list for PBXNativeTarget "flexolk_hw1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3719474225EF6E7000A53E9D /* Debug */,
+				3719474325EF6E7000A53E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3719471F25EF6E7000A53E9D /* flexolk_hw1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3719472025EF6E7000A53E9D /* flexolk_hw1.xcdatamodel */,
+			);
+			currentVersion = 3719472025EF6E7000A53E9D /* flexolk_hw1.xcdatamodel */;
+			path = flexolk_hw1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3719470925EF6E6C00A53E9D /* Project object */;
+}
